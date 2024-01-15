@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&G Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <section id="index">
+        
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>S&G Festival</h1>
+            <nav class="navegacion-principal">
+                <a href="#index">Inicio</a>
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Entradas</a>
+            </nav>
+        </div>
+    </header>
+</section>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>S&G Festival</h2>
+                <p>Febrero 2023, Santiago, Chile</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/Maneskin.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+                <picture>
+                    <source srcset="build/img/manesk.avif" type="image/avif">
+                    <source srcset="build/img/manesk.webp" type="image/webp">
+                    <img loading="lazy" width="200" height="300" src="build/img/manesk.jpg" alt="Imagen vocalista">
+                </picture>
+        </div>
+        <div class="contenido-festival">
+                <h2>S&G Festival</h2>
+                <p class="fecha">Febrero 2023, Santiago, Chile</p>
+                <p>El festival más grande de latinoAmérica;</p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+        <p class="dia">Viernes 24</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario G bg-celeste">
+                <p class="nombre-escenario">Escenario G</p>
+
+                <ul class="calendario">
+                    <li>
+                        14:00 | <span>Migos</span>
+                    </li>
+                    <li>
+                        16:00 | <span>21 Savage</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Travis Scott</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Future</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Drake</span>
+                    </li>
+                    <li>
+                        23:00 | <span>Metro boomin</span>
+                    </li>
+                </ul>
+            </div> <!--  Escenario  -->
+
+            <div class="escenario S bg-rosa">
+                <p class="nombre-escenario">Escenario S</p>
+
+                <ul class="calendario">
+                    <li>
+                        15:00 | <span>Scarlett Rose</span>
+                    </li>
+                    <li>
+                        16:00 | <span>Olivia Rodrigo</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Twenty One Pilots</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Imagine Dragons</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Måneskin</span>
+                    </li>
+                    <li>
+                        24:00 | <span>Miley Cyrus</span>
+                    </li>
+                </ul>
+            </div> <!--  Escenario  -->
+        </div>  <!--  escenarios-contenedor -->
+
+
+        <p class="dia">Sábado 25</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario S bg-rosa">
+                <p class="nombre-escenario">Escenario S</p>
+
+                <ul class="calendario">
+                    <li>
+                        13:00 | <span>Young Cister</span>
+                    </li>
+                    <li>
+                        14:00 | <span>Feid</span>
+                    </li>
+                    <li>
+                        16:00 | <span>Rosalía</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Los Bunkers</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Wisin & Yandel</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Don Omar</span>
+                    </li>
+                </ul>
+            </div> <!--  Escenario  -->
+
+            <div class="escenario G bg-celeste">
+                <p class="nombre-escenario">Escenario G</p>
+
+                <ul class="calendario">
+                    <li>
+                        13:00 | <span>Cris MJ</span>
+                    </li>
+                    <li>
+                        15:00 | <span>Rauw Alejandro</span>
+                    </li>
+                    <li>
+                        16:00 | <span>Pablo Chill-e</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Jhayco</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Bad Bunny</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Anuel</span>
+                    </li>
+                </ul>
+            </div> <!--  Escenario  -->
+        </div>  <!--  escenarios-contenedor -->
+
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Entradas</h3>
+
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">Entrada 1 día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$100.000</p>
+                </footer>
+            </div>
+
+            <div class="premium pase">
+                <p class="nombre-pase">Entrada 2 días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y bebida</li>
+                        <li>Merchandising del evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$180.000</p>
+                </footer>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer class="site-footer">
+        <p>S&G Festival. Todos los derechos reservados</p>
+    </footer>
+
+<script src="build/js/app.js"></script>
+
+</body>
+</html>
